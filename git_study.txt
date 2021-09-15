@@ -1,4 +1,4 @@
-1.  계정 정보 등록
+41.  계정 정보 등록
 git config --global user.name '사용자명'
 git config --global user.email '사용자 이메일'
 
@@ -23,3 +23,4 @@ git log : commit 내역 확인
   git reset --mixed<commit> : commit 내역을 되돌리고 staging까지 취소
 ---------------------파일 영향 x---------------------------
  git reset --hard<commit> : commit 내역을 되돌리고 파일을 rollback
+ git revert <commit> : 지정한 commit으로 인해 발생한 변경을 되돌리고, 새로운 commit을  생성해 commit에 추가
